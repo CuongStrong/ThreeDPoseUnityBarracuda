@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+	match /databases/{database}/documents {
+    match /data_config_dev/{documentId=**} {
+      allow read: if true
+    }
+    match /localization_dev/{documentId=**} {
+      allow read: if true
+    }
+    match /data_config_sta/{documentId=**} {
+      allow read: if true
+    }
+    match /localization_sta/{documentId=**} {
+      allow read: if true
+    }
+    match /data_config_pro/{documentId=**} {
+      allow read: if true
+    }
+    match /localization_pro/{documentId=**} {
+      allow read: if true
+    }
+    match /{document=**}/{userId} {      
+      allow create: if request.auth != null;
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

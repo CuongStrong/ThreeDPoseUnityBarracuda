@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6370383884879646628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6754037905404263766}
+  - component: {fileID: 2075303734177124355}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6754037905404263766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370383884879646628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2075303734177124355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370383884879646628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349a6133874034287ad46a7108e038ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolListEditor:
+  - name: CoinFlying
+    size: 15
+    prefab: {fileID: 1045135740420073909, guid: 1ec1a706cb62f460d81eab8cb5f44c65,
+      type: 3}
+  - name: ClearParticle
+    size: 1
+    prefab: {fileID: 6632713417433190065, guid: aaf73b2e451c34027bfc0662b7e07232,
+      type: 3}
+  - name: FxEntryConfetti
+    size: 2
+    prefab: {fileID: 7116022032178006535, guid: 136642a106cd6f14a9e674f370b56889,
+      type: 3}
+  - name: EmojiNote.Smiling
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 0bf76ef4b7d59454c87a5c9e12cc7014,
+      type: 3}
+  - name: EmojiNote.Smiling_With_Closed_Eyes
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: fbb676c692f8c184e96545b6d036f42e,
+      type: 3}
+  - name: EmojiNote.Tongue_Out_2
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: f15c5de1cee0c96449a7e4ce540ea76a,
+      type: 3}
+  - name: EmojiNote.Star_Eyes
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 134f3041fdcc13042a21e117e120a7b6,
+      type: 3}
+  - name: EmojiNote.Laughing
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 408f6ec661d415a4f8ac31a59301a4e8,
+      type: 3}
+  - name: EmojiNote.Tongue_Out_3
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 1e24b35f6cc311c419d0da9c29e522fe,
+      type: 3}
+  - name: EmojiNote.Happy
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 007ed8081ff1e0b489ad5ca807aaa428,
+      type: 3}
+  - name: EmojiNote.Very_Happy
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 0252e49adab7f5046880494bcd30a267,
+      type: 3}
+  - name: EmojiNote.Cowboy
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 4301c22fc36feed41a700a126d0d8a8a,
+      type: 3}
+  - name: EmojiNote.Heart_Eyes
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 3e677106fd9c35b469e7baf896f65f45,
+      type: 3}
+  - name: EmojiNote.Tears
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 95b10b4f9457f014abd073e8d0168b7e,
+      type: 3}
+  - name: EmojiNote.Drunk
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: d862a9fa3e94d8d4e8b2968ef736a77c,
+      type: 3}
+  - name: EmojiNote.Tears_Of_Joy
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 74ef0292d6671a34cb6cce25ed4db2fc,
+      type: 3}
+  - name: EmojiNote.Dizzy
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: b99d54fe1369b2e43bf0ed4c03d942dc,
+      type: 3}
+  - name: EmojiNote.Angry
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 551e1d377a8271f499b6d0b5bb9b6c47,
+      type: 3}
+  - name: EmojiNote.Money
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: b9380274da72ab645991825acf46d55f,
+      type: 3}
+  - name: EmojiNote.Sleeping
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 8a02aadf37ddc66488db8095354bd52f,
+      type: 3}
+  - name: EmojiNote.Puke
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 2697a71913cea91448dc7cd2a26a92bc,
+      type: 3}
+  - name: EmojiNote.Tongue_Out_1
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 460576a026cf8514cb7ff9e02a03d09d,
+      type: 3}
+  - name: EmojiNote.Relieved
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 311bb46ce5f168840b33bc96a75e4cf8,
+      type: 3}
+  - name: EmojiNote.Sad
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: f11cdb29ae0d8404882531dc27202485,
+      type: 3}
+  - name: EmojiNote.Mad
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 308593761f78a2e4b8de9897f65557ce,
+      type: 3}
+  - name: EmojiNote.Wink
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 15989d5ea54ad934596090568997c9e4,
+      type: 3}
+  - name: EmojiNote.Sad_2
+    size: 5
+    prefab: {fileID: 1411354654751356405, guid: 6e65f38cb58364146ba3e99afea861a7,
+      type: 3}

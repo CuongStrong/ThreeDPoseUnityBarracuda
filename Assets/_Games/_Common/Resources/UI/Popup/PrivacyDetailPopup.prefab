@@ -1,0 +1,1545 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6662880715295146505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6662880715295146506}
+  - component: {fileID: 6662880715295146517}
+  - component: {fileID: 6662880715295146516}
+  - component: {fileID: 6662880715295146507}
+  m_Layer: 5
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6662880715295146506
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880715295146505}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6662880716435026648}
+  m_Father: {fileID: 7969328192293754043}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1.3650513}
+  m_SizeDelta: {x: -60, y: -318.7299}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6662880715295146517
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880715295146505}
+  m_CullTransparentMesh: 1
+--- !u!114 &6662880715295146516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880715295146505}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6662880715295146507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880715295146505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 6662880715837665282}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 6662880716435026648}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &6662880715837665281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6662880715837665282}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6662880715837665282
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880715837665281}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6662880716013713464}
+  m_Father: {fileID: 6662880716435026648}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 7572.01}
+  m_Pivot: {x: 0, y: 1}
+--- !u!1 &6662880716013713471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6662880716013713464}
+  - component: {fileID: 6662880716013713466}
+  - component: {fileID: 6662880716013713465}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6662880716013713464
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716013713471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6662880715837665282}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6662880716013713466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716013713471}
+  m_CullTransparentMesh: 1
+--- !u!114 &6662880716013713465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716013713471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d23c2e85bf80240b7a625f1a46db0520, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Your privacy is important to us. It is Kage Cat\u2019s policy to respect
+    your privacy and comply with any applicable law and regulation regarding any
+    personal information we may collect about you, including via our app, Stonks
+    Runner, and its associated services.\n\nPersonal information is any information
+    about you which can be used to identify you. This includes information about
+    you as a person (such as name, address, and date of birth), your devices, payment
+    details, and even information about how you use an app or online service.\n\nIn
+    the event our app contains links to third-party sites and services, please be
+    aware that those sites and services have their own privacy policies. After following
+    a link to any third-party content, you should read their posted privacy policy
+    information about how they collect and use personal information. This Privacy
+    Policy does not apply to any of your activities after you leave our app.\n\nThis
+    policy is effective as of 19 June 2021.\n\nLast updated: 19 June 2021\n\nInformation
+    We Collect\nInformation we collect falls into one of two categories: \u201Cvoluntarily
+    provided\u201D information and \u201Cautomatically collected\u201D information.\n\n\u201CVoluntarily
+    provided\u201D information refers to any information you knowingly and actively
+    provide us when using our app and its associated services.\n\n\u201CAutomatically
+    collected\u201D information refers to any information automatically sent by your
+    device in the course of accessing our app and its associated services.\n\nLog
+    Data\nWhen you access our servers via our app, we may automatically log the standard
+    data provided by your device. It may include your device\u2019s Internet Protocol
+    (IP) address, your device type and version, your activity within the app, time
+    and date, and other details about your usage.\n\nAdditionally, when you encounter
+    certain errors while using the app, we automatically collect data about the error
+    and the circumstances surrounding its occurrence. This data may include technical
+    details about your device, what you were trying to do when the error happened,
+    and other technical information relating to the problem. You may or may not receive
+    notice of such errors, even in the moment they occur, that they have occurred,
+    or what the nature of the error is.\n\nPlease be aware that while this information
+    may not be personally identifying by itself, it may be possible to combine it
+    with other data to personally identify individual persons.\n\nDevice Data\nOur
+    app may access and collect data via your device\u2019s in-built tools, such as:\n\nLocation
+    data\nWhen you install the app or use your device\u2019s tools within the app,
+    we request permission to access this information. The specific data we collect
+    can depend on the individual settings of your device and the permissions you
+    grant when you install and use the app.\n\nPersonal Information\nWe may ask for
+    personal information \u2014 for example, when you subscribe to our newsletter
+    or when you contact us \u2014 which may include one or more of the following:\n\nEmail\nSocial
+    media profiles\nLegitimate Reasons for Processing Your Personal Information\nWe
+    only collect and use your personal information when we have a legitimate reason
+    for doing so. In which instance, we only collect personal information that is
+    reasonably necessary to provide our services to you.\n\nCollection and Use of
+    Information\nWe may collect personal information from you when you do any of
+    the following on our website:\n\nRegister for an account\nSign up to receive
+    updates from us via email or social media channels\nUse a mobile device or web
+    browser to access our content\nContact us via email, social media, or on any
+    similar technologies\nWhen you mention us on social media\nWe may collect, hold,
+    use, and disclose information for the following purposes, and personal information
+    will not be further processed in a manner that is incompatible with these purposes:\n\nto
+    provide you with our app and platform\u2019s core features and services\nto enable
+    you to customize or personalize your experience of our website\nto contact and
+    communicate with you\nfor analytics, market research, and business development,
+    including to operate and improve our app, associated applications, and associated
+    social media platforms\nfor advertising and marketing, including to send you
+    promotional information about our products and services and information about
+    third parties that we consider may be of interest to you\nto enable you to access
+    and use our app, associated platforms, and associated social media channels\nto
+    attribute any content (e.g. posts and comments) you submit that we publish on
+    our website\nfor security and fraud prevention, and to ensure that our sites
+    and apps are safe, secure, and used in line with our terms of use\nfor technical
+    assessment, including to operate and improve our app, associated applications,
+    and associated social media platforms\nWe may combine voluntarily provided and
+    automatically collected personal information with general information or research
+    data we receive from other trusted sources. For example, If you consent to us
+    accessing your social media profiles, we may combine information sourced from
+    those profiles with information received from you directly to provide you with
+    an enhanced experience of our app and services.\n\nSecurity of Your Personal
+    Information\nWhen we collect and process personal information, and while we retain
+    this information, we will protect it within commercially acceptable means to
+    prevent loss and theft, as well as unauthorized access, disclosure, copying,
+    use, or modification.\n\nAlthough we will do our best to protect the personal
+    information you provide to us, we advise that no method of electronic transmission
+    or storage is 100% secure, and no one can guarantee absolute data security.\n\nYou
+    are responsible for selecting any password and its overall security strength,
+    ensuring the security of your own information within the bounds of our services.
+    For example, ensuring any passwords associated with accessing your personal information
+    and accounts are secure and confidential.\n\nHow Long We Keep Your Personal Information\nWe
+    keep your personal information only for as long as we need to. This time period
+    may depend on what we are using your information for, in accordance with this
+    privacy policy. For example, if you have provided us with personal information
+    as part of creating an account with us, we may retain this information for the
+    duration your account exists on our system. If your personal information is no
+    longer required for this purpose, we will delete it or make it anonymous by removing
+    all details that identify you.\n\nHowever, if necessary, we may retain your personal
+    information for our compliance with a legal, accounting, or reporting obligation
+    or for archiving purposes in the public interest, scientific, or historical research
+    purposes or statistical purposes.\n\nChildren\u2019s Privacy\nWe do not aim any
+    of our products or services directly at children under the age of 13, and we
+    do not knowingly collect personal information about children under 13.\n\nDisclosure
+    of Personal Information to Third Parties\nWe may disclose personal information
+    to:\n\na parent, subsidiary, or affiliate of our company\nthird-party service
+    providers for the purpose of enabling them to provide their services, including
+    (without limitation) IT service providers, data storage, hosting and server providers,
+    ad networks, analytics, error loggers, debt collectors, maintenance or problem-solving
+    providers, advertising providers, professional advisors, and payment systems
+    operators\nour employees, contractors, and/or related entities\nour existing
+    or potential agents or business partners\ncredit reporting agencies, courts,
+    tribunals, and regulatory authorities, in the event you fail to pay for goods
+    or services we have provided to you\ncourts, tribunals, regulatory authorities,
+    and law enforcement officers, as required by law, in connection with any actual
+    or prospective legal proceedings, or in order to establish, exercise, or defend
+    our legal rights\nthird parties, including agents or sub-contractors, who assist
+    us in providing information, products, services, or direct marketing to you\nthird
+    parties to collect and process data\nan entity that buys, or to which we transfer
+    all or substantially all of our assets and business\nThird parties we currently
+    use include:\n\nGoogle Analytics\nAmplitude\nUnity Ads\nYour Rights and Controlling
+    Your Personal Information\nYour choice: By providing personal information to
+    us, you understand we will collect, hold, use, and disclose your personal information
+    in accordance with this privacy policy. You do not have to provide personal information
+    to us, however, if you do not, it may affect your use of our app or the products
+    and/or services offered on or through it.\n\nInformation from third parties:
+    If we receive personal information about you from a third party, we will protect
+    it as set out in this privacy policy. If you are a third party providing personal
+    information about somebody else, you represent and warrant that you have such
+    person\u2019s consent to provide the personal information to us.\n\nMarketing
+    permission: If you have previously agreed to us using your personal information
+    for direct marketing purposes, you may change your mind at any time by contacting
+    us using the details below.\n\nAccess: You may request details of the personal
+    information that we hold about you.\n\nCorrection: If you believe that any information
+    we hold about you is inaccurate, out of date, incomplete, irrelevant, or misleading,
+    please contact us using the details provided in this privacy policy. We will
+    take reasonable steps to correct any information found to be inaccurate, incomplete,
+    misleading, or out of date.\n\nNon-discrimination: We will not discriminate against
+    you for exercising any of your rights over your personal information. Unless
+    your personal information is required to provide you with a particular service
+    or offer (for example serving particular content to your device), we will not
+    deny you goods or services and/or charge you different prices or rates for goods
+    or services, including through granting discounts or other benefits, or imposing
+    penalties, or provide you with a different level or quality of goods or services.\n\nNotification
+    of data breaches: We will comply with laws applicable to us in respect of any
+    data breach.\n\nComplaints: If you believe that we have breached a relevant data
+    protection law and wish to make a complaint, please contact us using the details
+    below and provide us with full details of the alleged breach. We will promptly
+    investigate your complaint and respond to you, in writing, setting out the outcome
+    of our investigation and the steps we will take to deal with your complaint.
+    You also have the right to contact a regulatory body or data protection authority
+    in relation to your complaint.\n\nUnsubscribe: To unsubscribe from our email
+    database or opt-out of communications (including marketing communications), please
+    contact us using the details provided in this privacy policy, or opt-out using
+    the opt-out facilities provided in the communication. We may need to request
+    specific information from you to help us confirm your identity.\n\nBusiness Transfers\nIf
+    we or our assets are acquired, or in the unlikely event that we go out of business
+    or enter bankruptcy, we would include data, including your personal information,
+    among the assets transferred to any parties who acquire us. You acknowledge that
+    such transfers may occur, and that any parties who acquire us may, to the extent
+    permitted by applicable law, continue to use your personal information according
+    to this policy, which they will be required to assume as it is the basis for
+    any ownership or use rights we have over such information.\n\nLimits of Our Policy\nOur
+    app may link to external sites that are not operated by us. Please be aware that
+    we have no control over the content and policies of those sites, and cannot accept
+    responsibility or liability for their respective privacy practices.\n\nChanges
+    to This Policy\nAt our discretion, we may change our privacy policy to reflect
+    updates to our business processes, current acceptable practices, or legislative
+    or regulatory changes. If we decide to change this privacy policy, we will post
+    the changes here.\n\nIf the changes are significant, or if required by applicable
+    law, we will contact you (based on your selected preferences for communications
+    from us) and all our registered users with the new details and links to the updated
+    or changed policy.\n\nIf required by law, we will get your permission or give
+    you the opportunity to opt in to or opt out of, as applicable, any new uses of
+    your personal information.\n\nAdditional Disclosures for Australian Privacy Act
+    Compliance (AU)\nInternational Transfers of Personal Information\nWhere the disclosure
+    of your personal information is solely subject to Australian privacy laws, you
+    acknowledge that some third parties may not be regulated by the Privacy Act and
+    the Australian Privacy Principles in the Privacy Act. You acknowledge that if
+    any such third party engages in any act or practice that contravenes the Australian
+    Privacy Principles, it would not be accountable under the Privacy Act, and you
+    will not be able to seek redress under the Privacy Act.\n\nAdditional Disclosures
+    for General Data Protection Regulation (GDPR) Compliance (EU)\nData Controller
+    / Data Processor\nThe GDPR distinguishes between organisations that process personal
+    information for their own purposes (known as \u201Cdata controllers\u201D) and
+    organizations that process personal information on behalf of other organizations
+    (known as \u201Cdata processors\u201D). We, Kage Cat, located at the address
+    provided in our Contact Us section, are a Data Controller with respect to the
+    personal information you provide to us.\n\nLegal Bases for Processing Your Personal
+    Information\nWe will only collect and use your personal information when we have
+    a legal right to do so. In which case, we will collect and use your personal
+    information lawfully, fairly, and in a transparent manner. If we seek your consent
+    to process your personal information, and you are under 16 years of age, we will
+    seek your parent or legal guardian\u2019s consent to process your personal information
+    for that specific purpose.\n\nOur lawful bases depend on the services you use
+    and how you use them. This means we only collect and use your information on
+    the following grounds:\n\nConsent From You\nWhere you give us consent to collect
+    and use your personal information for a specific purpose. You may withdraw your
+    consent at any time using the facilities we provide; however this will not affect
+    any use of your information that has already taken place. You may consent to
+    providing your email address for the purpose of receiving marketing emails from
+    us. While you may unsubscribe at any time, we cannot recall any email we have
+    already sent. If you have any further enquiries about how to withdraw your consent,
+    please feel free to enquire using the details provided in the Contact Us section
+    of this privacy policy.\n\nPerformance of a Contract or Transaction\nWhere you
+    have entered into a contract or transaction with us, or in order to take preparatory
+    steps prior to our entering into a contract or transaction with you. For example,
+    we need technical information about your device in order to provide the essential
+    features of our app.\n\nOur Legitimate Interests\nWhere we assess it is necessary
+    for our legitimate interests, such as for us to provide, operate, improve and
+    communicate our services. For example, we collect technical information about
+    your device in order to improve and personalize your experience of our app. We
+    consider our legitimate interests to include research and development, understanding
+    our audience, marketing and promoting our services, measures taken to operate
+    our services efficiently, marketing analysis, and measures taken to protect our
+    legal rights and interests.\n\nCompliance with Law\nIn some cases, we may have
+    a legal obligation to use or keep your personal information. Such cases may include
+    (but are not limited to) court orders, criminal investigations, government requests,
+    and regulatory obligations. If you have any further enquiries about how we retain
+    personal information in order to comply with the law, please feel free to enquire
+    using the details provided in the Contact Us section of this privacy policy.\n\nInternational
+    Transfers Outside of the European Economic Area (EEA)\nWe will ensure that any
+    transfer of personal information from countries in the European Economic Area
+    (EEA) to countries outside the EEA will be protected by appropriate safeguards,
+    for example by using standard data protection clauses approved by the European
+    Commission, or the use of binding corporate rules or other legally accepted means.\n\nYour
+    Rights and Controlling Your Personal Information\nRestrict: You have the right
+    to request that we restrict the processing of your personal information if (i)
+    you are concerned about the accuracy of your personal information; (ii) you believe
+    your personal information has been unlawfully processed; (iii) you need us to
+    maintain the personal information solely for the purpose of a legal claim; or
+    (iv) we are in the process of considering your objection in relation to processing
+    on the basis of legitimate interests.\n\nObjecting to processing: You have the
+    right to object to processing of your personal information that is based on our
+    legitimate interests or public interest. If this is done, we must provide compelling
+    legitimate grounds for the processing which overrides your interests, rights,
+    and freedoms, in order to proceed with the processing of your personal information.\n\nData
+    portability: You may have the right to request a copy of the personal information
+    we hold about you. Where possible, we will provide this information in CSV format
+    or other easily readable machine format. You may also have the right to request
+    that we transfer this personal information to a third party.\n\nDeletion: You
+    may have a right to request that we delete the personal information we hold about
+    you at any time, and we will take reasonable steps to delete your personal information
+    from our current records. If you ask us to delete your personal information,
+    we will let you know how the deletion affects your use of our app, website or
+    products and services. There may be exceptions to this right for specific legal
+    reasons which, if applicable, we will set out for you in response to your request.
+    Please be aware that search engines and similar third parties may still retain
+    copies of your personal information that has been made public at least once,
+    like certain profile information and public comments, even after you have deleted
+    the information from our services or deactivated your account.\n\nAdditional
+    Disclosures for California Compliance (US)\nUnder California Civil Code Section
+    1798.83, if you live in California and your business relationship with us is
+    mainly for personal, family, or household purposes, you may ask us about the
+    information we release to other organizations for their marketing purposes.\n\nTo
+    make such a request, please contact us using the details provided in this privacy
+    policy with \u201CRequest for California privacy information\u201D in the subject
+    line. You may make this type of request once every calendar year. We will email
+    you a list of categories of personal information we revealed to other organisations
+    for their marketing purposes in the last calendar year, along with their names
+    and addresses. Not all personal information shared in this way is covered by
+    Section 1798.83 of the California Civil Code.\n\nDo Not Track\nSome browsers
+    have a \u201CDo Not Track\u201D feature that lets you tell websites that you
+    do not want to have your online activities tracked. At this time, we do not respond
+    to browser \u201CDo Not Track\u201D signals.\n\nWe adhere to the standards outlined
+    in this privacy policy, ensuring we collect and process personal information
+    lawfully, fairly, transparently, and with legitimate, legal reasons for doing
+    so.\n\nCookies and Pixels\nAt all times, you may decline cookies from our site
+    if your browser permits. Most browsers allow you to activate settings on your
+    browser to refuse the setting of all or some cookies. Accordingly, your ability
+    to limit cookies is based only on your browser\u2019s capabilities. Please refer
+    to the Cookies section of this privacy policy for more information.\n\nCCPA-permitted
+    financial incentives\nIn accordance with your right to non-discrimination, we
+    may offer you certain financial incentives permitted by the CCPA that can result
+    in different prices, rates, or quality levels for the goods or services we provide.\n\nAny
+    CCPA-permitted financial incentive we offer will reasonably relate to the value
+    of your personal information, and we will provide written terms that describe
+    clearly the nature of such an offer. Participation in a financial incentive program
+    requires your prior opt-in consent, which you may revoke at any time.\n\nCalifornia
+    Notice of Collection\nIn the past 12 months, we have collected the following
+    categories of personal information enumerated in the California Consumer Privacy
+    Act:\n\nGeolocation data.\nFor more information on information we collect, including
+    the sources we receive information from, review the \u201CInformation We Collect\u201D
+    section. We collect and use these categories of personal information for the
+    business purposes described in the \u201CCollection and Use of Information\u201D
+    section, including to provide and manage our Service.\n\nRight to Know and Delete\nIf
+    you are a California resident, you have rights to delete your personal information
+    we collected and know certain information about our data practices in the preceding
+    12 months. In particular, you have the right to request the following from us:\n\nThe
+    categories of personal information we have collected about you;\nThe categories
+    of sources from which the personal information was collected;\nThe categories
+    of personal information about you we disclosed for a business purpose or sold;\nThe
+    categories of third parties to whom the personal information was disclosed for
+    a business purpose or sold;\nThe business or commercial purpose for collecting
+    or selling the personal information; and\nThe specific pieces of personal information
+    we have collected about you.\nTo exercise any of these rights, please contact
+    us using the details provided in this privacy policy.\n\nShine the Light\nIf
+    you are a California resident, in addition to the rights discussed above, you
+    have the right to request information from us regarding the manner in which we
+    share certain personal information as defined by California\u2019s \u201CShine
+    the Light\u201D with third parties and affiliates for their own direct marketing
+    purposes.\n\nTo receive this information, send us a request using the contact
+    details provided in this privacy policy. Requests must include \u201CCalifornia
+    Privacy Rights Request\u201D in the first line of the description and include
+    your name, street address, city, state, and ZIP code.\n\nContact Us\nFor any
+    questions or concerns regarding your privacy, you may contact us using the following
+    details:\n\nBrian Gin\nsupport@kagecat.comese purposes:\n\nto provide you with
+    our app and platform's core features and services\nto enable you to customize
+    or personalize your experience of our website\nto contact and communicate with
+    you\nfor analytics, market research, and business development, including to operate
+    and improve our app, associated applications, and associated social media platforms\nfor
+    advertising and marketing, including to send you promotional information about
+    our products and services and information about third parties that we consider
+    may be of interest to you\nto enable you to access and use our app, associated
+    platforms, and associated social media channels\nto attribute any content (e.g.
+    posts and comments) you submit that we publish on our website\nfor security and
+    fraud prevention, and to ensure that our sites and apps are safe, secure, and
+    used in line with our terms of use\nfor technical assessment, including to operate
+    and improve our app, associated applications, and associated social media platforms\nWe
+    may combine voluntarily provided and automatically collected personal information
+    with general information or research data we receive from other trusted sources.
+    For example, If you consent to us accessing your social media profiles, we may
+    combine information sourced from those profiles with information received from
+    you directly to provide you with an enhanced experience of our app and services.\n\nSecurity
+    of Your Personal Information\nWhen we collect and process personal information,
+    and while we retain this information, we will protect it within commercially
+    acceptable means to prevent loss and theft, as well as unauthorized access, disclosure,
+    copying, use, or modification.\n\nAlthough we will do our best to protect the
+    personal information you provide to us, we advise that no method of electronic
+    transmission or storage is 100% secure, and no one can guarantee absolute data
+    security.\n\nYou are responsible for selecting any password and its overall security
+    strength, ensuring the security of your own information within the bounds of
+    our services. For example, ensuring any passwords associated with accessing your
+    personal information and accounts are secure and confidential.\n\nHow Long We
+    Keep Your Personal Information\nWe keep your personal information only for as
+    long as we need to. This time period may depend on what we are using your information
+    for, in accordance with this privacy policy. For example, if you have provided
+    us with personal information as part of creating an account with us, we may retain
+    this information for the duration your account exists on our system. If your
+    personal information is no longer required for this purpose, we will delete it
+    or make it anonymous by removing all details that identify you.\n\nHowever, if
+    necessary, we may retain your personal information for our compliance with a
+    legal, accounting, or reporting obligation or for archiving purposes in the public
+    interest, scientific, or historical research purposes or statistical purposes.\n\nChildren\u2019s
+    Privacy\nWe do not aim any of our products or services directly at children under
+    the age of 13, and we do not knowingly collect personal information about children
+    under 13.\n\nDisclosure of Personal Information to Third Parties\nWe may disclose
+    personal information to:\n\na parent, subsidiary, or affiliate of our company\nthird-party
+    service providers for the purpose of enabling them to provide their services,
+    including (without limitation) IT service providers, data storage, hosting and
+    server providers, ad networks, analytics, error loggers, debt collectors, maintenance
+    or problem-solving providers, advertising providers, professional advisors, and
+    payment systems operators\nour employees, contractors, and/or related entities\nour
+    existing or potential agents or business partners\ncredit reporting agencies,
+    courts, tribunals, and regulatory authorities, in the event you fail to pay for
+    goods or services we have provided to you\ncourts, tribunals, regulatory authorities,
+    and law enforcement officers, as required by law, in connection with any actual
+    or prospective legal proceedings, or in order to establish, exercise, or defend
+    our legal rights\nthird parties, including agents or sub-contractors, who assist
+    us in providing information, products, services, or direct marketing to you\nthird
+    parties to collect and process data\nan entity that buys, or to which we transfer
+    all or substantially all of our assets and business\nThird parties we currently
+    use include:\n\nGoogle Analytics\nAmplitude\nUnity Ads\nYour Rights and Controlling
+    Your Personal Information\nYour choice: By providing personal information to
+    us, you understand we will collect, hold, use, and disclose your personal information
+    in accordance with this privacy policy. You do not have to provide personal information
+    to us, however, if you do not, it may affect your use of our app or the products
+    and/or services offered on or through it.\n\nInformation from third parties:
+    If we receive personal information about you from a third party, we will protect
+    it as set out in this privacy policy. If you are a third party providing personal
+    information about somebody else, you represent and warrant that you have such
+    person\u2019s consent to provide the personal information to us.\n\nMarketing
+    permission: If you have previously agreed to us using your personal information
+    for direct marketing purposes, you may change your mind at any time by contacting
+    us using the details below.\n\nAccess: You may request details of the personal
+    information that we hold about you.\n\nCorrection: If you believe that any information
+    we hold about you is inaccurate, out of date, incomplete, irrelevant, or misleading,
+    please contact us using the details provided in this privacy policy. We will
+    take reasonable steps to correct any information found to be inaccurate, incomplete,
+    misleading, or out of date.\n\nNon-discrimination: We will not discriminate against
+    you for exercising any of your rights over your personal information. Unless
+    your personal information is required to provide you with a particular service
+    or offer (for example serving particular content to your device), we will not
+    deny you goods or services and/or charge you different prices or rates for goods
+    or services, including through granting discounts or other benefits, or imposing
+    penalties, or provide you with a different level or quality of goods or services.\n\nNotification
+    of data breaches: We will comply with laws applicable to us in respect of any
+    data breach.\n\nComplaints: If you believe that we have breached a relevant data
+    protection law and wish to make a complaint, please contact us using the details
+    below and provide us with full details of the alleged breach. We will promptly
+    investigate your complaint and respond to you, in writing, setting out the outcome
+    of our investigation and the steps we will take to deal with your complaint.
+    You also have the right to contact a regulatory body or data protection authority
+    in relation to your complaint.\n\nUnsubscribe: To unsubscribe from our email
+    database or opt-out of communications (including marketing communications), please
+    contact us using the details provided in this privacy policy, or opt-out using
+    the opt-out facilities provided in the communication. We may need to request
+    specific information from you to help us confirm your identity.\n\nBusiness Transfers\nIf
+    we or our assets are acquired, or in the unlikely event that we go out of business
+    or enter bankruptcy, we would include data, including your personal information,
+    among the assets transferred to any parties who acquire us. You acknowledge that
+    such transfers may occur, and that any parties who acquire us may, to the extent
+    permitted by applicable law, continue to use your personal information according
+    to this policy, which they will be required to assume as it is the basis for
+    any ownership or use rights we have over such information.\n\nLimits of Our Policy\nOur
+    app may link to external sites that are not operated by us. Please be aware that
+    we have no control over the content and policies of those sites, and cannot accept
+    responsibility or liability for their respective privacy practices.\n\nChanges
+    to This Policy\nAt our discretion, we may change our privacy policy to reflect
+    updates to our business processes, current acceptable practices, or legislative
+    or regulatory changes. If we decide to change this privacy policy, we will post
+    the changes here.\n\nIf the changes are significant, or if required by applicable
+    law, we will contact you (based on your selected preferences for communications
+    from us) and all our registered users with the new details and links to the updated
+    or changed policy.\n\nIf required by law, we will get your permission or give
+    you the opportunity to opt in to or opt out of, as applicable, any new uses of
+    your personal information.\n\nAdditional Disclosures for Australian Privacy Act
+    Compliance (AU)\nInternational Transfers of Personal Information\nWhere the disclosure
+    of your personal information is solely subject to Australian privacy laws, you
+    acknowledge that some third parties may not be regulated by the Privacy Act and
+    the Australian Privacy Principles in the Privacy Act. You acknowledge that if
+    any such third party engages in any act or practice that contravenes the Australian
+    Privacy Principles, it would not be accountable under the Privacy Act, and you
+    will not be able to seek redress under the Privacy Act.\n\nAdditional Disclosures
+    for General Data Protection Regulation (GDPR) Compliance (EU)\nData Controller
+    / Data Processor\nThe GDPR distinguishes between organisations that process personal
+    information for their own purposes (known as \u201Cdata controllers\u201D) and
+    organizations that process personal information on behalf of other organizations
+    (known as \u201Cdata processors\u201D). We, Kage Cat, located at the address
+    provided in our Contact Us section, are a Data Controller with respect to the
+    personal information you provide to us.\n\nLegal Bases for Processing Your Personal
+    Information\nWe will only collect and use your personal information when we have
+    a legal right to do so. In which case, we will collect and use your personal
+    information lawfully, fairly, and in a transparent manner. If we seek your consent
+    to process your personal information, and you are under 16 years of age, we will
+    seek your parent or legal guardian\u2019s consent to process your personal information
+    for that specific purpose.\n\nOur lawful bases depend on the services you use
+    and how you use them. This means we only collect and use your information on
+    the following grounds:\n\nConsent From You\nWhere you give us consent to collect
+    and use your personal information for a specific purpose. You may withdraw your
+    consent at any time using the facilities we provide; however this will not affect
+    any use of your information that has already taken place. You may consent to
+    providing your email address for the purpose of receiving marketing emails from
+    us. While you may unsubscribe at any time, we cannot recall any email we have
+    already sent. If you have any further enquiries about how to withdraw your consent,
+    please feel free to enquire using the details provided in the Contact Us section
+    of this privacy policy.\n\nPerformance of a Contract or Transaction\nWhere you
+    have entered into a contract or transaction with us, or in order to take preparatory
+    steps prior to our entering into a contract or transaction with you. For example,
+    we need technical information about your device in order to provide the essential
+    features of our app.\n\nOur Legitimate Interests\nWhere we assess it is necessary
+    for our legitimate interests, such as for us to provide, operate, improve and
+    communicate our services. For example, we collect technical information about
+    your device in order to improve and personalize your experience of our app. We
+    consider our legitimate interests to include research and development, understanding
+    our audience, marketing and promoting our services, measures taken to operate
+    our services efficiently, marketing analysis, and measures taken to protect our
+    legal rights and interests.\n\nCompliance with Law\nIn some cases, we may have
+    a legal obligation to use or keep your personal information. Such cases may include
+    (but are not limited to) court orders, criminal investigations, government requests,
+    and regulatory obligations. If you have any further enquiries about how we retain
+    personal information in order to comply with the law, please feel free to enquire
+    using the details provided in the Contact Us section of this privacy policy.\n\nInternational
+    Transfers Outside of the European Economic Area (EEA)\nWe will ensure that any
+    transfer of personal information from countries in the European Economic Area
+    (EEA) to countries outside the EEA will be protected by appropriate safeguards,
+    for example by using standard data protection clauses approved by the European
+    Commission, or the use of binding corporate rules or other legally accepted means.\n\nYour
+    Rights and Controlling Your Personal Information\nRestrict: You have the right
+    to request that we restrict the processing of your personal information if (i)
+    you are concerned about the accuracy of your personal information; (ii) you believe
+    your personal information has been unlawfully processed; (iii) you need us to
+    maintain the personal information solely for the purpose of a legal claim; or
+    (iv) we are in the process of considering your objection in relation to processing
+    on the basis of legitimate interests.\n\nObjecting to processing: You have the
+    right to object to processing of your personal information that is based on our
+    legitimate interests or public interest. If this is done, we must provide compelling
+    legitimate grounds for the processing which overrides your interests, rights,
+    and freedoms, in order to proceed with the processing of your personal information.\n\nData
+    portability: You may have the right to request a copy of the personal information
+    we hold about you. Where possible, we will provide this information in CSV format
+    or other easily readable machine format. You may also have the right to request
+    that we transfer this personal information to a third party.\n\nDeletion: You
+    may have a right to request that we delete the personal information we hold about
+    you at any time, and we will take reasonable steps to delete your personal information
+    from our current records. If you ask us to delete your personal information,
+    we will let you know how the deletion affects your use of our app, website or
+    products and services. There may be exceptions to this right for specific legal
+    reasons which, if applicable, we will set out for you in response to your request.
+    Please be aware that search engines and similar third parties may still retain
+    copies of your personal information that has been made public at least once,
+    like certain profile information and public comments, even after you have deleted
+    the information from our services or deactivated your account.\n\nAdditional
+    Disclosures for California Compliance (US)\nUnder California Civil Code Section
+    1798.83, if you live in California and your business relationship with us is
+    mainly for personal, family, or household purposes, you may ask us about the
+    information we release to other organizations for their marketing purposes.\n\nTo
+    make such a request, please contact us using the details provided in this privacy
+    policy with \u201CRequest for California privacy information\u201D in the subject
+    line. You may make this type of request once every calendar year. We will email
+    you a list of categories of personal information we revealed to other organisations
+    for their marketing purposes in the last calendar year, along with their names
+    and addresses. Not all personal information shared in this way is covered by
+    Section 1798.83 of the California Civil Code.\n\nDo Not Track\nSome browsers
+    have a \u201CDo Not Track\u201D feature that lets you tell websites that you
+    do not want to have your online activities tracked. At this time, we do not respond
+    to browser \u201CDo Not Track\u201D signals.\n\nWe adhere to the standards outlined
+    in this privacy policy, ensuring we collect and process personal information
+    lawfully, fairly, transparently, and with legitimate, legal reasons for doing
+    so.\n\nCookies and Pixels\nAt all times, you may decline cookies from our site
+    if your browser permits. Most browsers allow you to activate settings on your
+    browser to refuse the setting of all or some cookies. Accordingly, your ability
+    to limit cookies is based only on your browser\u2019s capabilities. Please refer
+    to the Cookies section of this privacy policy for more information.\n\nCCPA-permitted
+    financial incentives\nIn accordance with your right to non-discrimination, we
+    may offer you certain financial incentives permitted by the CCPA that can result
+    in different prices, rates, or quality levels for the goods or services we provide.\n\nAny
+    CCPA-permitted financial incentive we offer will reasonably relate to the value
+    of your personal information, and we will provide written terms that describe
+    clearly the nature of such an offer. Participation in a financial incentive program
+    requires your prior opt-in consent, which you may revoke at any time.\n\nCalifornia
+    Notice of Collection\nIn the past 12 months, we have collected the following
+    categories of personal information enumerated in the California Consumer Privacy
+    Act:\n\nGeolocation data.\nFor more information on information we collect, including
+    the sources we receive information from, review the \u201CInformation We Collect\u201D
+    section. We collect and use these categories of personal information for the
+    business purposes described in the \u201CCollection and Use of Information\u201D
+    section, including to provide and manage our Service.\n\nRight to Know and Delete\nIf
+    you are a California resident, you have rights to delete your personal information
+    we collected and know certain information about our data practices in the preceding
+    12 months. In particular, you have the right to request the following from us:\n\nThe
+    categories of personal information we have collected about you;\nThe categories
+    of sources from which the personal information was collected;\nThe categories
+    of personal information about you we disclosed for a business purpose or sold;\nThe
+    categories of third parties to whom the personal information was disclosed for
+    a business purpose or sold;\nThe business or commercial purpose for collecting
+    or selling the personal information; and\nThe specific pieces of personal information
+    we have collected about you.\nTo exercise any of these rights, please contact
+    us using the details provided in this privacy policy.\n\nShine the Light\nIf
+    you are a California resident, in addition to the rights discussed above, you
+    have the right to request information from us regarding the manner in which we
+    share certain personal information as defined by California\u2019s \u201CShine
+    the Light\u201D with third parties and affiliates for their own direct marketing
+    purposes.\n\nTo receive this information, send us a request using the contact
+    details provided in this privacy policy. Requests must include \u201CCalifornia
+    Privacy Rights Request\u201D in the first line of the description and include
+    your name, street address, city, state, and ZIP code.\n\nContact Us\nFor any
+    questions or concerns regarding your privacy, you may contact us using the following
+    details:\n\nBrian Gin\nsupport@kagecat.com\n\""
+--- !u!1 &6662880716435026655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6662880716435026648}
+  - component: {fileID: 6662880716435026651}
+  - component: {fileID: 6662880716435026650}
+  - component: {fileID: 6662880716435026649}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6662880716435026648
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716435026655}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6662880715837665282}
+  m_Father: {fileID: 6662880715295146506}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &6662880716435026651
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716435026655}
+  m_CullTransparentMesh: 1
+--- !u!114 &6662880716435026650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716435026655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6662880716435026649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6662880716435026655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!1 &7969328192293754044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328192293754043}
+  - component: {fileID: 7969328192293754041}
+  - component: {fileID: 7969328192293754042}
+  m_Layer: 5
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328192293754043
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192293754044}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7969328193734892048}
+  - {fileID: 7969328192909854361}
+  - {fileID: 7969328192370992864}
+  - {fileID: 6662880715295146506}
+  m_Father: {fileID: 7969328193346735089}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 650, y: 1240}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7969328192293754041
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192293754044}
+  m_CullTransparentMesh: 1
+--- !u!114 &7969328192293754042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192293754044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b6b6e2bfce6b6486bb753503dd58c56d, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7969328192370992865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328192370992864}
+  - component: {fileID: 7969328192370992877}
+  - component: {fileID: 7969328192370992878}
+  - component: {fileID: 7969328192370992879}
+  m_Layer: 5
+  m_Name: ButtonOK
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328192370992864
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192370992865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7969328194371924104}
+  m_Father: {fileID: 7969328192293754043}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 100.6}
+  m_SizeDelta: {x: 250, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7969328192370992877
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192370992865}
+  m_CullTransparentMesh: 1
+--- !u!114 &7969328192370992878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192370992865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: aa59391e6c40e448fb15639e867c464c, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1.8
+--- !u!114 &7969328192370992879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192370992865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 7969328192370992878}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7969328193346735095}
+        m_TargetAssemblyTypeName: PrivacyDetailPopup, Assembly-CSharp
+        m_MethodName: ButtonOkOnclick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &7969328192909854362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328192909854361}
+  - component: {fileID: 7969328192909854341}
+  - component: {fileID: 7969328192909854342}
+  - component: {fileID: 7969328192909854343}
+  - component: {fileID: 7969328192909854360}
+  m_Layer: 5
+  m_Name: TextTittle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328192909854361
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192909854362}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7969328192293754043}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -68}
+  m_SizeDelta: {x: 600, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7969328192909854341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192909854362}
+  m_CullTransparentMesh: 1
+--- !u!114 &7969328192909854342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192909854362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d23c2e85bf80240b7a625f1a46db0520, type: 3}
+    m_FontSize: 65
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 80
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Privacy Policy
+--- !u!114 &7969328192909854343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192909854362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &7969328192909854360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328192909854362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c98ea5955994fa8a2bbf453b25728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: tos.privacyPolicy
+  args: 
+--- !u!1 &7969328193346735094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328193346735089}
+  - component: {fileID: 7969328193346735090}
+  - component: {fileID: 7969328193346735091}
+  - component: {fileID: 7969328193346735092}
+  - component: {fileID: 7969328193346735095}
+  m_Layer: 5
+  m_Name: PrivacyDetailPopup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328193346735089
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193346735094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 7969328193998711202}
+  - {fileID: 7969328192293754043}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &7969328193346735090
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193346735094}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
+--- !u!114 &7969328193346735091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193346735094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 754, y: 1334}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &7969328193346735092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193346735094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &7969328193346735095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193346735094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e042ef886b0884bd686eff86b8201b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelRoot: {fileID: 0}
+  boardTranform: {fileID: 7969328192293754043}
+--- !u!1 &7969328193734892049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328193734892048}
+  - component: {fileID: 7969328193734892062}
+  - component: {fileID: 7969328193734892063}
+  m_Layer: 5
+  m_Name: ImageLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328193734892048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193734892049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7969328192293754043}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -149}
+  m_SizeDelta: {x: 640.44, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7969328193734892062
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193734892049}
+  m_CullTransparentMesh: 1
+--- !u!114 &7969328193734892063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193734892049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: da1129c72490a4207a268908eaaf0200, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7969328193998711203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328193998711202}
+  - component: {fileID: 7969328193998711200}
+  - component: {fileID: 7969328193998711201}
+  m_Layer: 5
+  m_Name: Backdrop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328193998711202
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193998711203}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7969328193346735089}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7969328193998711200
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193998711203}
+  m_CullTransparentMesh: 1
+--- !u!114 &7969328193998711201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328193998711203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8627451}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7969328194371924105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7969328194371924104}
+  - component: {fileID: 7969328194371924212}
+  - component: {fileID: 7969328194371924213}
+  - component: {fileID: 7969328194371924214}
+  - component: {fileID: 7969328194371924215}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7969328194371924104
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328194371924105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7969328192370992864}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 1}
+  m_SizeDelta: {x: 0, y: 2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7969328194371924212
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328194371924105}
+  m_CullTransparentMesh: 1
+--- !u!114 &7969328194371924213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328194371924105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d23c2e85bf80240b7a625f1a46db0520, type: 3}
+    m_FontSize: 44
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 46
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Ok
+--- !u!114 &7969328194371924214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328194371924105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &7969328194371924215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7969328194371924105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c98ea5955994fa8a2bbf453b25728a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: button.ok
+  args: 

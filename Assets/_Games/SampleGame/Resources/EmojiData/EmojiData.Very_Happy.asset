@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26f77ba07c48cb64c91429f75131e6ec, type: 3}
+  m_Name: EmojiData.Very_Happy
+  m_EditorClassIdentifier: 
+  checkData:
+    checkRotation: 0
+    rotationData:
+      checkX: 0
+      x:
+        Min: 0
+        Max: 0
+      checkY: 0
+      y:
+        Min: 0
+        Max: 0
+      checkZ: 0
+      z:
+        Min: 0
+        Max: 0
+    checkMouth: 1
+    mouthData:
+      checkA: 1
+      A:
+        Min: 0.29962546
+        Max: 1
+      checkI: 0
+      I:
+        Min: 0.40074915
+        Max: 1
+      checkU: 0
+      U:
+        Min: 0.29588014
+        Max: 1
+    checkBrow: 0
+    browData:
+      checkFun: 0
+      fun:
+        Min: 0
+        Max: 0
+      sorrow:
+        Min: 0
+        Max: 0
+    checkEye: 1
+    eyeData:
+      left:
+        Min: 0.49812734
+        Max: 1
+      right:
+        Min: 0.50187266
+        Max: 1
